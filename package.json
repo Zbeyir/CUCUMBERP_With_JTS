@@ -1,0 +1,27 @@
+
+{
+  "name": "cucumberpwjts",
+  "version": "1.0.0",
+  "description": "this is automation of pw with bdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test & npx ts-node index.ts"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "equality tech",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.40.1",
+    "cross-env": "^7.0.3",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.3.2",
+    "playwright": "^1.40.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

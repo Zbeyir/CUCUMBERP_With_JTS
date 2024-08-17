@@ -1,0 +1,10 @@
+
+
+https://github.com/mdbasheer333/cucumberpwjts
+
+
+npx ts-node .\index.ts  --> elemanin ki
+
+npx ts-node reports/index.ts  --> ben cucmbe rrapor u bunun ile calsitir dim
+index.ts
+

@@ -1,0 +1,31 @@
+{
+    "loginLink": {
+        "locatorOptions": {},
+        "locator": "xpath=//a[contains(.,'My account') and @data-toggle]",
+        "description": "login link",
+        "actOptions": {}
+    },
+    "emailField": {
+        "locator": "xpath=//input[@id='input-email']",
+        "description": "email Field"
+    },
+    "passwordField": {
+        "locator": "xpath=//input[@id='input-password']",
+        "description": "password Field"
+    },
+    "loginBtn": {
+        "locator": "xpath=//input[@value='Login']",
+        "description": "login Btn"
+    },
+    "logoutLink": {
+        "locator": "xpath=//a[contains(.,'Logout') and @class='list-group-item']",
+        "description": "logout Link"
+    },
+    "continueBtn": {
+        "locator": "link",
+        "description": "continue Btn",
+        "locatorOptions": {
+            "name": "Continue"
+        }
+    }
+}
